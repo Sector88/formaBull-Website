@@ -302,6 +302,7 @@ module.exports = function(webpackEnv) {
         // It's important to do this before Babel processes the JS.
         {
           test: /\.(js|mjs|jsx|ts|tsx)$/,
+          exclude: /node_modules/,
           enforce: 'pre',
           use: [
             {
