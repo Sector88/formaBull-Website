@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {Helmet} from 'react-helmet'
 
-class PageHelmet extends React.Component{
+class PageHelmet extends Component{
     render(){
         return(
             <React.Fragment>

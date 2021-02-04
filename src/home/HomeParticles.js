@@ -61,7 +61,7 @@ const list = [
     }
 ]
 
-class HomeParticles extends React.Component{
+class HomeParticles extends Component{
     constructor(props) {
         super(props);
         this.menuTrigger = this.menuTrigger.bind(this);

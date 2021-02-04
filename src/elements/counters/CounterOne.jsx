@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
 
-class CounterOne extends React.Component{
+class CounterOne extends Component{
     state = {
         didViewCountUp: false
     };

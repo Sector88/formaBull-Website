@@ -150,7 +150,7 @@ let TeamContent = [
 ];
 
 
-class Team extends React.Component{
+class Team extends Component{
     render(){
         const {column} = this.props;
         return(

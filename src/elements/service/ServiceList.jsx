@@ -35,7 +35,7 @@ const ServiceList = [
 ]
 
 
-class ServiceThree extends React.Component{
+class ServiceThree extends Component{
     render(){
         const {column } = this.props;
         const ServiceContent = ServiceList.slice(0 , this.props.item);
