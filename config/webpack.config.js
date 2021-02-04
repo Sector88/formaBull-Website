@@ -181,7 +181,7 @@ module.exports = function(webpackEnv) {
         // This is only used in production mode
         new TerserPlugin({
           terserOptions: {
-            keep_fnames: /./,
+            keep_fnames: true,
             parse: {
               // we want terser to parse ecma 8 code. However, we don't want it
               // to apply any minfication steps that turns valid ecma 5 code
