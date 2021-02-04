@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-class Testimonial extends Component{
+
+
+class Testimonial extends React.Component{
     render(){
         return(
             <React.Fragment>
