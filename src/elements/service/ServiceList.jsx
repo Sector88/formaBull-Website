@@ -1,36 +1,36 @@
 import React ,{ Component }from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+import { FiCast , FiLayers, FiMonitor, FiPackage, FiCode, FiFastForward, FiCopy } from "react-icons/fi";
 
 const ServiceList = [
     {
         icon: <FiCast />,
         title: 'Drag & Drop UI',
-        description: 'Easily create forms by utilizing our sleek user friendly UI.'
+        description: 'Easily create forms by dragging and dropping form elements with our sleek user friendly UI.'
+    },
+    {
+        icon: <FiCode/>,
+        title: 'React Hooks',
+        description: 'Easily manage state with React Hooks pre-built into your forms'
+    },
+    {
+        icon: <FiPackage />,
+        title: 'Generate Code',
+        description: 'Drop form elements on the canvas and your code block will be automatically generate your React Hook Form'
+    },
+    { 
+        icon: <FiCopy />,
+        title: 'Simple Export',
+        description: 'Click the clipboard icon to copy your code block and you’re off to your codebase. It\'s that easy!'
     },
     {
         icon: <FiLayers />,
-        title: 'React Hooks',
-        description: 'Easily manage state with React Hooks built into your forms - automatically!'
-    },
-    {
-        icon: <FiUsers />,
-        title: 'Generate Code',
-        description: 'As you build your form, your code block will be automatically generate to match exactly what you have on screen.'
-    },
-    { 
-        icon: <FiMonitor />,
-        title: 'Simple Export',
-        description: 'Copy all those lines with one click of the clipboard icon, and you’re off to your codebase!'
-    },
-    {
-        icon: <FiUsers />,
         title: 'Custom CSS',
-        description: 'Customize your form with in app styling and easily export your CSS to use in your codebase.'
+        description: 'Customize your form with pre-built or custom styling options, not to mention, simple export for CSS code blocks as well!'
     },
     { 
-        icon: <FiMonitor />,
+        icon: <FiFastForward />,
         title: 'Future Features',
-        description: 'Exciting updates are being worked on for our next big update'
+        description: 'Exciting updates are being worked on for our next big update, stay tuned!'
     }
 ]
 
@@ -46,7 +46,7 @@ class ServiceThree extends Component{
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
                             {/* use to be href="/service-details" */}
-                            <a href="/service-details">
+                            <a href="#features">
                                 <div className="service service__style--2">
                                     <div className="icon">
                                         {val.icon}

@@ -157,8 +157,9 @@ class Team extends Component{
             <React.Fragment>
                 {TeamContent.map((value , i ) => (
                     <div className={`${column}`} key={i}>
-                        <div className="team">
-                            <div style={{borderRadius: '50%'}} className="thumbnail">
+                        {/* style={{borderRadius: '30%'}} */}
+                        <div  className="team"> 
+                            <div  className="thumbnail">
                                 <img src={`/assets/images/team/team-${value.images}.png`} alt="Blog Images"/>
                             </div>
                             <div className="content">

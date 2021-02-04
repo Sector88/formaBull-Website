@@ -229,8 +229,8 @@ class HomeParticles extends Component{
                                 <div className="col-lg-7">
                                     <div className="about-inner inner">
                                         <div className="section-title">
-                                            <h2 className="title">About Us</h2>
-                                            <p className="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#alteration">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,</p>
+                                            <h2 className="title">About</h2>
+                                            <p className="description">formaBull Beta is a pleasant open-source concoction of the React Hook Forms library, Electron framework, and a drag and drop UI mixed in with built-in and/or custom CSS options, making it a true one stop shop for everything form related. You can create your form by dragging elements onto the canvas and your code will generate in the Code tab, relieving software engineers of something they find very painful - repetitive coding! Why solve something you already solved? Save and share your forms (feature update coming soon!) to reuse them again and again, and again.</p>
                                         </div>
                                         {/* <div className="row mt--30">
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">

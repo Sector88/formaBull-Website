@@ -21,7 +21,7 @@ class ContactTwo extends Component{
                                 <h6><p className="description"> Reach out to team formaBull.</p></h6>
                             </div>
                             <div className="form-wrapper">
-                                <form>
+                                <form >
                                     <label htmlFor="item01">
                                         <input
                                             type="text"
