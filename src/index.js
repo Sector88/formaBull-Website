@@ -10,23 +10,23 @@ import './index.scss';
 
 
 // Home layout
-import Demo from './page-demo/Demo';
-import MainDemo from './home/MainDemo';
-import Startup from './home/Startup';
-import Paralax from './home/Paralax';
-import HomePortfolio from './home/HomePortfolio';
-import DigitalAgency from './home/DigitalAgency';
-import CreativeAgency from './home/CreativeAgency';
-import PersonalPortfolio from './home/PersonalPortfolio';
-import Business from './home/Business';
-import StudioAgency from './home/StudioAgency';
-import PortfolioLanding from './home/PortfolioLanding';
-import CreativeLanding from './home/CreativeLanding';
+// import Demo from './page-demo/Demo';
+// import MainDemo from './home/MainDemo';
+// import Startup from './home/Startup';
+// import Paralax from './home/Paralax';
+// import HomePortfolio from './home/HomePortfolio';
+// import DigitalAgency from './home/DigitalAgency';
+// import CreativeAgency from './home/CreativeAgency';
+// import PersonalPortfolio from './home/PersonalPortfolio';
+// import Business from './home/Business';
+// import StudioAgency from './home/StudioAgency';
+// import PortfolioLanding from './home/PortfolioLanding';
+// import CreativeLanding from './home/CreativeLanding';
 import HomeParticles from './home/HomeParticles';
-import CreativePortfolio from './home/CreativePortfolio';
-import DesignerPortfolio from './home/DesignerPortfolio';
-import InteriorLanding from './home/Interior';
-import CorporateBusiness from './home/CorporateBusiness';
+// import CreativePortfolio from './home/CreativePortfolio';
+// import DesignerPortfolio from './home/DesignerPortfolio';
+// import InteriorLanding from './home/Interior';
+// import CorporateBusiness from './home/CorporateBusiness';
 
 // Dark Home Layout 
 import DarkMainDemo from './dark/MainDemo';
@@ -68,7 +68,7 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <Switch>
                     <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomeParticles}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/startup`} component={Startup}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/paralax`} component={Paralax}/>
@@ -80,14 +80,14 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/business`} component={Business}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio-home`} component={HomePortfolio}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio-landing`} component={PortfolioLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/creative-landing`} component={CreativeLanding}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/creative-landing`} component={CreativeLanding}/> */}
                     {/* This use to be HomeParticles, switched Demo (first line) wit */}
-                    <Route exact path={`${process.env.PUBLIC_URL}/home-particles`} component={Demo}/>
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/home-particles`} component={Demo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/dark-portfolio-landing`} component={DarkPortfolioLanding}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/designer-portfolio`} component={DesignerPortfolio}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/creative-portfolio`} component={CreativePortfolio}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/interior-landing`} component={InteriorLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/corporate-business`} component={CorporateBusiness}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/corporate-business`} component={CorporateBusiness}/> */}
 
 
                     {/* Element Layot */}
