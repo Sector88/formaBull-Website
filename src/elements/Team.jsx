@@ -158,8 +158,8 @@ class Team extends Component{
                 {TeamContent.map((value , i ) => (
                     <div className={`${column}`} key={i}>
                         {/* style={{borderRadius: '30%'}} */}
-                        <div  className="team"> 
-                            <div  className="thumbnail">
+                        <div className="team"> 
+                            <div className="thumbnail">
                                 <img src={`/assets/images/team/team-${value.images}.png`} alt="Blog Images"/>
                             </div>
                             <div className="content">
